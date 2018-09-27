@@ -1,0 +1,195 @@
+/*********HEADER***********/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+/*************HEADER************/
+
+header
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #77a466;
+}
+
+.half-width h1 span
+{
+	color: #000000;
+}
+
+nav
+{
+	margin-top: 30px;
+	margin-left: 400px;
+	margin-right: 10px;
+}
+
+nav ul li a
+{
+	
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #77a466;
+	padding-right: 0px;
+	margin-right: 0px;
+	font-weight: bold;
+}
+
+/************GRID*************/
+
+.full-width
+{
+	width: 1500px;
+	margin: 0 auto;
+
+}
+
+.half-width
+{
+	width: auto;
+	float: left;
+}
+
+.half-width nav ul li
+{
+	text-decoration-line: none;
+	padding-right: 45px;
+	float: left;
+	display: inline-block;
+}
+
+.third-width
+{
+	width: 500px;
+	float: left;
+}
+
+/*************Wallpaper*************/
+
+.wallpaper img
+{
+	width: 1500px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/**************ABOUT****************/
+
+#about .fullwidth
+{
+	padding: 80px 0;
+}
+
+#about h3
+{
+	color: #77a466;
+	font-family: 'Montserrat' , 'sans-serif';
+}
+
+#about p
+{
+	font-family: 'Montserrat' , 'sans-serif';
+	line-height: 20px;
+}
+
+/************Gallery***************/
+
+#gallery
+{
+	border: 2px solid #77a466;
+	width: 1500px;
+	height: 300px;
+	margin-top: 30px;
+}
+
+#gallery h3
+{
+	text-align: center;
+	color: #77a466;
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+	padding-top: 10px;
+	margin: 0px;
+}
+
+.grid
+{
+	width: 300px;
+	float: left;
+	margin-top: 0px;
+}
+.grid img
+{
+
+    border: 2px solid grey;
+	padding: 0px;
+	margin: 10px 10px 10px 50px;
+    width: 200px;
+    height: 200px;
+}
+
+/**********Information***********/
+
+#info img
+{
+	margin-top: 30px;
+	width: 1500px;
+}
+
+/***********MENU*************/
+
+#menu
+{
+	width: 400px;
+	float: left;
+	text-align: justify-all;
+	margin-right: 20px;
+	font-family: 'Montserrat' , 'sans-serif';
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+#reviews
+{
+	width: 400px;
+	float: left;
+	text-align: justify-all;
+	margin-left: 50px;
+	margin-right: 20px;
+	font-family: 'Montserrat' , 'sans-serif';
+	font-size: 18px;
+}
+
+#locations
+{
+	width: 400px;
+	float: left;
+	margin-left: 70px;
+	text-align: justify-all;
+	font-family: 'Montserrat' , 'sans-serif';
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+#menu ul li
+{
+	font-family: 'Montserrat' , 'sans-serif';
+	font-size: 18px;
+	color: #77a466;
+}
+
+
+/**********FOOTER************/
+
+footer h2 span
+{
+	color: #77a466;
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+	font-size: 25px;
+	letter-spacing: 2px; 
+}
+
+#content
+{
+	text-align: center;
+}
